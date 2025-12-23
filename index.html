@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alan Silva</title>
-    
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
 
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+    <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
 
-    <nav>
+<!-- IMPORTANTE: classe js evita site invisível -->
+<body class="js">
+
+    <nav class="reveal delay-1">
         <div class="left">
             <a href="/">Alan Silva</a>
         </div>
@@ -34,45 +39,53 @@
 
     <main>
         <section class="hero-section">
-            
+
             <div class="text">
-                <h2>Olá, meu nome é Alan 👋</h2>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum nisi a accusantium, adipisci consequuntur laborum voluptatibus nihil eveniet nam quaerat quos consequatur cumque laboriosam distinctio possimus esse quis quasi quas.
+                <h2 class="reveal">Olá, meu nome é Alan 👋</h2>
+
+                <p class="reveal delay-1">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Cum nisi a accusantium, adipisci consequuntur laborum
+                    voluptatibus nihil eveniet nam quaerat quos consequatur
+                    cumque laboriosam distinctio possimus esse quis quasi quas.
                 </p>
 
-                <div class="hero-buttons">
-                    <a href="#skills" class="btn-outline">
+                <div class="hero-buttons reveal delay-2">
+                    <a href="#skills">
                         <i class="fa-solid fa-code"></i>
                         <span>Habilidades</span>
                     </a>
-                    <a href="#projects" class="btn-outline">
+                    <a href="#projects">
                         <i class="fa-solid fa-microchip"></i>
                         <span>Projetos</span>
                     </a>
-                    <a href="#contact" class="btn-outline">
+                    <a href="#contact">
                         <i class="fa-solid fa-envelope"></i>
                         <span>Contato</span>
                     </a>
                 </div>
             </div>
 
-            <div class="headshot">
-                <img src="Imagens/ali-morshedlou-WMD64tMfc4k-unsplash_1_.webp" alt="Alan Silva Headshot">
+            <div class="headshot reveal delay-3">
+                <img
+                    src="Imagens/ali-morshedlou-WMD64tMfc4k-unsplash_1_.webp"
+                    alt="Alan Silva Headshot"
+                />
             </div>
 
         </section>
 
-        <section id="skills" class="content-section">
-            </section>
+        <section id="skills" class="content-section reveal">
+        </section>
 
-        <section id="projects" class="content-section">
-            </section>
+        <section id="projects" class="content-section reveal">
+        </section>
 
-        <section id="contact" class="content-section">
-            </section>
-
+        <section id="contact" class="content-section reveal">
+        </section>
     </main>
 
+    <!-- JS GERADO PELO TYPESCRIPT -->
+    <script type="module" src="scripts/animations.js"></script>
 </body>
 </html>
